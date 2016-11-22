@@ -1,1 +1,1 @@
-http://www.codeproject.com/Articles/759094/Step-by-Step-PHP-Tutorials-for-Beginners-Creating
+https://laravel.com/docs/5.1/quickstart
