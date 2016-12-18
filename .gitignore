@@ -1,4 +1,9 @@
-/vendor
+/.settings
+/.vagrant
 .directory
-.settings/
-.vagrant/
+/node_modules
+/public/storage
+/vendor
+/.idea
+Homestead.json
+.env

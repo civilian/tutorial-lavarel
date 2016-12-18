@@ -2,8 +2,8 @@
 ip: "192.168.10.10"
 memory: 2048
 cpus: 1
-hostname: tutorial-lavarel
-name: tutorial-lavarel
+hostname: quickstart
+name: quickstart
 provider: virtualbox
 
 authorize: ~/.ssh/id_rsa.pub
@@ -12,15 +12,15 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: "/media/datosPort/repos/tutorial-lavarel/source"
-      to: "/home/vagrant/tutorial-lavarel/source"
+    - map: "/home/vagrant/homestead/source/quickstart"
+      to: "/home/vagrant/quickstart"
 
 sites:
-    - map: tutorial-lavarel.app
-      to: "/home/vagrant/tutorial-lavarel/source/public"
+    - map: homestead.app
+      to: "/home/vagrant/quickstart/public"
 
 databases:
-    - tutorial-lavarel
+    - homestead
 
 # blackfire:
 #     - id: foo
